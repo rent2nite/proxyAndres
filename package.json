@@ -1,0 +1,27 @@
+{
+  "name": "proxyandres",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "proxy": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rent2nite/proxyAndres.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rent2nite/proxyAndres/issues"
+  },
+  "homepage": "https://github.com/rent2nite/proxyAndres#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy": "^1.18.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
